@@ -149,6 +149,8 @@ impl Drop for RawInstance {
     }
 }
 
+pub use window::Surface;
+
 pub struct Instance {
     pub raw: Arc<RawInstance>,
 
